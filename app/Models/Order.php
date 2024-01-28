@@ -11,6 +11,7 @@ class Order extends Model
         'total_in_cents',
         'payment_gateway',
         'payment_id',
+        'status'
     ];
     protected $casts = [
         'user_id' => 'integer',
